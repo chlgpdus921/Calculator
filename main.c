@@ -42,8 +42,8 @@ int add(int number1, int number2)
  
 int sub(int number1, int number2)
 {
-	//TODO implementation
-	return 0;
+	int res = number1 - number2;
+	return res;
 }
  
 int multi(int number1, int number2)
@@ -54,6 +54,6 @@ int multi(int number1, int number2)
  
 int div(int number1, int number2)
 {
-	//TODO implementation
-	return number1/number2;
+	return number1 / number2;
 }
+
